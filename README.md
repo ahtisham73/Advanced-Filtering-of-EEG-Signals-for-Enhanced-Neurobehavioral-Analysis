@@ -109,14 +109,16 @@ Electroencephalography (EEG) captures brain activity through electrodes placed o
 ### Steps
 1. Clone this repository:
    ```bash
-  [ git clone https://github.com/your-repo/EEG-Filtering-Analysis.git](https://github.com/ahtisham73/Advanced-Filtering-of-EEG-Signals-for-Enhanced-Neurobehavioral-Analysis.git) 
+  [ git clone https://github.com/your-repo/EEG-Filtering-Analysis.git] 
+  (https://github.com/ahtisham73/Advanced-Filtering-of-EEG-Signals-for-Enhanced-Neurobehavioral-Analysis.git) 
+  addpath('path_to_eeglab');
 
   
 2. Add EEGLAB path in MATLAB:
-   `
+   ```bash
    addpath('path_to_eeglab');
    `
-   
+
 3. Load the dataset:
 `
 load('825_2_PD_REST.mat');
