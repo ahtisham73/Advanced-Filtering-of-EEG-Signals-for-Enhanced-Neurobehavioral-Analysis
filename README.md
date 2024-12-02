@@ -108,8 +108,9 @@ Electroencephalography (EEG) captures brain activity through electrodes placed o
 
 ### Steps
 1. Clone this repository:
-       ```bash git clone https://github.com/your-repo/EEG-Filtering-Analysis.git
-  (https://github.com/ahtisham73/Advanced-Filtering-of-EEG-Signals-for-Enhanced-Neurobehavioral-Analysis.git) 
+   ```bash
+              git clone https://github.com/your-repo/EEG-Filtering-Analysis.git
+  (https://github.com/ahtisham73/Advanced-Filtering-of-EEG-Signals-for-Enhanced-Neurobehavioral-Analysis.git)    
  
 
   
