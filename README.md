@@ -1,1 +1,1 @@
-# Advanced-Filtering-of-EEG-Signals-for-Enhanced-Neurobehavioral-Analysis
+# Filtering-of-EEG-Signals-for-Enhanced-Neurobehavioral-Analysis
