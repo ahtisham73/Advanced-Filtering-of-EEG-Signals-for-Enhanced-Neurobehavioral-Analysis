@@ -1,17 +1,15 @@
-# Advanced Filtering of EEG Signals for Neurobehavioral Analysis
+# 🧠 **Advanced Filtering of EEG Signals for Neurobehavioral Analysis**
 
 This project focuses on cleaning and analyzing EEG signals using Digital Signal Processing (DSP) techniques in MATLAB. The goal is to isolate critical brainwave frequencies (delta, theta, alpha, sigma, and beta) by implementing and evaluating various filters, enabling clearer interpretation of neurobehavioral traits.
 
-
-## Repository Contents
+## 📂 Repository Contents
 - `Complete_Project_Cleaning EEG Data Using Filters`: MATLAB code for all filtering and analysis tasks.
 - Dataset file: `825_2_PD_REST.mat`
-- Project report:`Project_Report.pdf`
-
+- Project report: `Project_Report.pdf`
 
 ---
 
-## Table of Contents
+## 📚 Table of Contents
 - [Introduction](#introduction)
 - [Dataset Description](#dataset-description)
 - [Implemented Techniques](#implemented-techniques)
@@ -24,12 +22,12 @@ This project focuses on cleaning and analyzing EEG signals using Digital Signal 
 
 ---
 
-## Introduction
+## 📝 **Introduction**
 Electroencephalography (EEG) captures brain activity through electrodes placed on the scalp, offering insights into cognitive and emotional states. This project implements noise reduction techniques to clean EEG signals and filter specific brainwave bands for behavioral interpretation.
 
 ---
 
-## Dataset Description
+## 🗂 **Dataset Description**
 - **Source**: Multichannel EEG recordings
 - **Structure**: Matrix of dimensions `[channels x samples]`
 - **Sampling Rate**: `Fs` Hz, indicating temporal resolution
@@ -40,7 +38,7 @@ Electroencephalography (EEG) captures brain activity through electrodes placed o
 
 ---
 
-## Implemented Techniques
+## 🔧 **Implemented Techniques**
 ### Filters Applied
 1. **Notch Filter**: Removes line noise at 60 Hz and harmonics.
 2. **Frequency Band Filters**:
@@ -56,7 +54,7 @@ Electroencephalography (EEG) captures brain activity through electrodes placed o
 
 ---
 
-## Project Workflow
+## 🛠 **Project Workflow**
 1. **Preliminary Analysis**:
    - Analyze raw EEG data for noise and artifacts.
    - Identify line noise peaks in PSD.
@@ -69,7 +67,7 @@ Electroencephalography (EEG) captures brain activity through electrodes placed o
 
 ---
 
-## Results and Analysis
+## 📊 **Results and Analysis**
 1. **Noise Reduction**:
    - Significant attenuation of line noise observed in PSD.
 2. **Filtered Data**:
@@ -83,7 +81,7 @@ Electroencephalography (EEG) captures brain activity through electrodes placed o
 
 ---
 
-## Conclusion and Future Work
+## 📈 **Conclusion and Future Work**
 ### Summary
 - Effective noise reduction and frequency band isolation were achieved, enabling clearer understanding of brain activity.
 
@@ -94,17 +92,21 @@ Electroencephalography (EEG) captures brain activity through electrodes placed o
 
 ---
 
-## How to Run
+## 🖥 **How to Run**
 ### Prerequisites
 - MATLAB installed on your system.
 - EEGLAB added to MATLAB's path.
-    Details:
-     
-1.	Download: Visit the official EEG Lab website and navigate to the download section. Select the appropriate version of the toolbox compatible with our MATLAB version and operating system. https://sccn.ucsd.edu/eeglab/downloadtoolbox.php/
-2.	Extract Files: After downloading the EEG Lab toolbox archive, extract its contents to a designated folder on our computer.
-3.	Add Path: Open MATLAB and navigate to the "Set Path" option in the "File" menu. Add the path to the extracted EEG Lab toolbox folder to MATLAB's search path to enable access to its functions and scripts.
-4.	Verify Installation: To verify the successful installation of the EEG Lab toolbox, type "eeglab" in the MATLAB command window. If installed correctly, EEG Lab's graphical user interface (GUI) should open without any errors.
 
+    **Details**:
+     
+1. **Download**: Visit the official EEG Lab website and navigate to the download section. Select the appropriate version of the toolbox compatible with your MATLAB version and operating system.  
+   [EEGLAB Download](https://sccn.ucsd.edu/eeglab/downloadtoolbox.php/)
+   
+2. **Extract Files**: After downloading the EEG Lab toolbox archive, extract its contents to a designated folder on your computer.
+   
+3. **Add Path**: Open MATLAB and navigate to the "Set Path" option in the "File" menu. Add the path to the extracted EEG Lab toolbox folder to MATLAB's search path to enable access to its functions and scripts.
+   
+4. **Verify Installation**: To verify the successful installation of the EEG Lab toolbox, type `eeglab` in the MATLAB command window. If installed correctly, EEG Lab's graphical user interface (GUI) should open without any errors.
 
 ### Steps
 1. Clone this repository:
